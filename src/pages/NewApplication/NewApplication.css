@@ -1,0 +1,265 @@
+.application_form {
+    border-radius: 0 !important;
+    font-size: 12px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.application_form .card {
+    border-radius: 0 !important;
+    margin: 10px;
+}
+
+.application_form .form-control, .application_form .form-select {
+    margin-top: 5px;
+    border-radius: 0;
+    width: 70%;
+    font-size: 12px;
+}
+.application_form .applicationTitle .form-control {
+    width: 80% !important;
+}
+
+.application_form .nav-tabs button {
+    border-radius: 0;
+    color: black;
+}
+
+.application_form .nav-tabs button:focus {
+    background-color: rgb(221, 221, 221);
+}
+
+.application_form .applicationTitle {
+    background-color: #F8F9FA;
+}
+
+.application_form .applicationTitle h5, .application_form .applicationTitle button {
+    color: rgb(13, 89, 160) !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+.application_form .date-block {
+    display: flex;
+}
+.application_form .apps_no > div >div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 !important;
+    
+    
+}
+.application_form .apps_no {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+.application_form-label {
+    margin: 0;
+}
+
+.application_form .apps_no_input {
+    width: 60%;
+}
+.application_form .date_input {
+    width: 60%;
+}
+.application_form .apps_no button {
+    border-radius: 2px;
+    border: none;
+    background-color: #286090;
+    color: white;
+    width:100px;
+    font-size: 12px;
+    
+
+}
+
+.application_form .apps_no_cont {
+    margin: 0;
+}
+.application_form .apps_no_cont  .label-input input{
+    margin-bottom: 0 !important;
+}
+.application_form .paste {
+    display: flex;
+    justify-content: end;
+}
+.application_form .label-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.application_form .label-input input {
+    width: 80%;
+}
+
+/* personal section */
+.application_form {
+    border-radius: 0 !important;
+    font-size: 12px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.application_form .card {
+    border-radius: 0 !important;
+    margin: 10px;
+}
+
+.application_form .form-control {
+    margin-top: 5px;
+    border-radius: 0;
+    font-size: 12px;
+}
+.application_form .nav-tabs button {
+    border-radius: 0;
+    color: black;
+}
+
+.application_form .nav-tabs button:focus {
+    background-color: rgb(221, 221, 221);
+}
+
+.application_form .applicationTitle {
+    background-color: #F8F9FA;
+}
+
+.application_form .applicationTitle h5, .application_form .applicationTitle button {
+    color: rgb(13, 89, 160) !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+.application_form .date-block {
+    display: flex;
+}
+.application_form .apps_no > div >div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 !important;
+    
+    
+}
+.application_form .apps_no {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+.application_form-label {
+    margin: 0;
+}
+
+.application_form .apps_no_input {
+    width: 60%;
+}
+.application_form .date_input {
+    width: 60%;
+}
+.application_form .apps_no button {
+    border-radius: 2px;
+    border: none;
+    background-color: #286090;
+    color: white;
+    width:100px;
+    font-size: 12px;
+    
+
+}
+.application_form .apps_no_cont {
+    margin: 0;
+}
+
+.application_form .paste {
+    display: flex;
+    justify-content: end;
+}
+.application_form .label-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.application_form .label-input input, .application_form .form-select {
+    width: 60%;
+    margin-bottom: 1rem !important;
+}
+
+
+/* personal section */
+
+.application_form .card .row > div > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.application_form .form-check-input {
+    height: 20px;
+    width: 20px;
+ 
+}
+.application_form .form-check-label {
+    display: flex;
+    align-items: center;
+    margin: auto;
+ 
+}
+.application_form .form-check-input {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+ 
+}
+.application_form .btn-outline-secondary {
+    width: 30px;
+    height: 30px;
+}
+.application_form .form-select {
+    font-size: 14px;
+}
+
+.application_form .input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 80%;
+  }
+
+.application_form .photo_frame .form-control {
+    width: 100%;
+  }
+.application_form .label-input input, .application_form .form-select {
+    width: 60%;
+    margin-bottom: 0 !important;
+  }
+.application_form .card-body > .row > div:hover {
+    font-weight: bold;
+
+}
+
+.application_form input:focus, .application_form .form-select:focus{
+    background-color: rgb(244, 246, 247);
+    box-shadow: none;
+}
+
+.application_form select {
+    border-radius: 0;
+}
+
+.application_form option {
+    background-color: red !important;
+}
+.application_form input:required, .application_form select:required {
+    border: 1px solid rgb(218, 137, 32); 
+}

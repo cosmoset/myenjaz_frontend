@@ -1,0 +1,54 @@
+
+#ImageSlider{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center; /* Horizontally center the image */
+    align-items: center; /* Vertically center the image */
+  }
+
+  #ImageSlider img{
+    width: 100% !important;
+    height: 100%;
+    object-fit: cover;
+  } 
+
+.notlogged >  div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.notlogged {
+    background-color:#0d4c92 !important;
+}
+.btn-sbt {
+    border-radius: 0;
+    padding: 0;
+    
+}
+
+.nameLogo a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+.homeLink {
+    font-size: 14px;
+}
+
+.login {
+    background-color: white;
+    border-radius: 2px;
+}
+
+.login:hover {
+    background-color: wheat;
+}
+.bi-person {
+    color: black !important;
+}

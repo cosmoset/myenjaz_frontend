@@ -1,0 +1,28 @@
+footer .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #E6E9EB;
+    padding-top: 30px;
+}
+footer div {
+    width: 100%;
+
+}
+footer >  div > div {
+    width: 100%;
+}
+.copy {
+    background-color: #0D4C92;
+}
+.quick_link{
+    list-style-type: none !important;
+    margin-left: 0;
+    padding-left: 0;
+}

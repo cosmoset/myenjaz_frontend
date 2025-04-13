@@ -1,0 +1,204 @@
+
+main .dropdown-menu, .dropdown-item {
+    font-size: 13px !important;
+}
+.dropdown-toggle {
+  border: none; 
+  color: white; 
+  padding: 4px; 
+  padding-left: 20px;
+  text-align: left; 
+  border-radius: 0;
+
+}
+:root {
+  --bs-table-striped-bg: rgba(224, 224, 224, 0.1); /* Example: light red background */
+
+}
+
+.table{
+  --bs-table-border-color: gray !important;
+  font-weight: 100 !important;
+  
+}
+table tr:hover {
+  background-color: rgb(204, 42, 42) !important;
+  cursor: pointer;
+}
+.applicationList {
+  font: 12px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+}
+.applicationList tbody {
+  border: 1px rgb(172, 172, 172) ;
+}
+
+.dropdown-toggle:focus {
+  box-shadow: none; 
+}
+
+.dropdown-toggle:hover {
+  
+  color:white ;
+}
+
+.dropdown-menu {
+  width: 200px;
+  margin-left: 20px; 
+}
+
+
+.dropdown-item {
+  width: 100%;
+  text-align: left; 
+}
+.mt-3 {
+  margin-top: 0 !important;
+}
+
+.table {
+  width: 100%; 
+}
+
+.table-primary {
+  background-color: #2796CE !important; 
+  color: white; 
+}
+
+.table th, .table td {
+  text-align: left; 
+  width: 20%; 
+  white-space: nowrap; 
+}
+
+
+
+.table td {
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
+
+.apps_search .dropdown {
+  display: flex;
+  flex-direction: row !important;
+}
+.apps_search  input {
+  width: 200px;
+  padding: 5px;
+  border: none;
+  font-size: 14px;
+  border-radius: 2px !important;
+  margin: 0;
+  margin: 5px;
+  margin-right: 10px;
+  margin-bottom: 2px !important;
+
+}
+.apps_search input:focus {
+  box-shadow: none;
+}
+.apps_search{
+display: flex;
+align-items: center;
+justify-content: space-between;
+  background-color: #2796CE !important; 
+}
+.apps_search .search {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+.apps_search .search p {
+  font-size: 14px !important;
+  font-weight: bold;
+  margin: 0;
+  
+}
+/* Login Page */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Login Container */
+.login-container {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Form Inputs */
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Password Container */
+.login-container .password-container {
+  position: relative;
+}
+
+.login-container .eye-button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Login Button */
+.login-container .login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.login-container .login-button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.login-container .login-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.form input, select {
+  margin: 0 !important;
+}
+.col-md-6 {
+  margin: 5px 0;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}

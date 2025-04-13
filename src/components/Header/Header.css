@@ -1,0 +1,101 @@
+/* Header.css */
+.header {
+    background-color: #2c3e50; /* Dark blue background */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+  
+  .hamburger-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .hamburger-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .left.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: #2c3e50;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #34495e;
+  }
+  
+  .left.open nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .left.open .dropdown {
+    margin-top: 10px;
+  }
+  
+  .selected {
+    color: #1abc9c !important; /* Highlight color for selected tab */
+  }
+  
+  .user_login {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .user_login:hover {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+  }
+  
+  .dropdown-menu {
+    background-color: #2c3e50;
+    border: 1px solid #34495e;
+  }
+  
+  .dropdown-item {
+    color: white;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #1abc9c;
+    color: white;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    body {
+        background-color: red;
+    }
+    .hamburger-icon {
+      display: block;
+    }
+  
+    .left {
+      display: none;
+    }
+  
+    .left.open {
+      display: flex;
+    }
+  }

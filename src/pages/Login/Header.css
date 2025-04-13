@@ -1,0 +1,35 @@
+header {
+    width: 100% !important;
+    background-color: #0D4C92 !important;
+
+}
+
+.selected {
+    color: rgb(98, 247, 7) !important;
+}
+header .small  {
+    text-decoration: none;
+}
+header .left {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+header .dropdown {
+    border-radius: 5px !important;
+}
+header .dropdown button  {
+    background-color: white !important;
+    color: black;
+    border-radius: 2px;
+    font-size: 12px;
+}
+.user_login:hover {
+    color: rgb(49, 47, 47) !important;
+}   
+
+.dropdown {
+    display: flex;
+    align-items: center;
+}
