@@ -1462,7 +1462,7 @@ export default function EditApplicationForm() {
           <br />
           <br />
           <ToastContainer />
-          <Footer />
+          {/* <Footer /> */}
         </>
       );
     }
