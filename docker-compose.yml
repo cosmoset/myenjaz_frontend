@@ -1,0 +1,14 @@
+
+services:
+  # Production service
+  myenjaz_front_prod:
+    build:
+      context: .
+      target: final  
+    image: myenjaz_front_prod
+    container_name: myenjaz_front_prod
+    ports:
+      - "5173:5173"  
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped      
