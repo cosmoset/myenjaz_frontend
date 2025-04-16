@@ -25,8 +25,8 @@ function Footer() {
 
           <div>
             <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-4">Contact Us</h3>
-            <p className="text-gray-600 dark:text-gray-400">Phone: +251 911 454176</p>
-            <p className="text-gray-600 dark:text-gray-400">Mail: easyenjaz.sa@gmail.com</p>
+            <p className="text-gray-600 dark:text-gray-400">Phone: +251912959198</p>
+            <p className="text-gray-600 dark:text-gray-400">Mail: contact@myenjaz.com</p>
           </div>
         </div>
 
