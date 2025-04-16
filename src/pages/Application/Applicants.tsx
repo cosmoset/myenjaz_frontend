@@ -123,9 +123,38 @@ export default function Applicants() {
     }
   };
 
+
+  const generateSummary = async () => {
+    if (selectedApplicants.length === 0) {
+      toast.error('No applicants selected for summary generation.');
+      return;
+    }
+  
+    try {
+      const token = localStorage.getItem('token');
+      const response = await axios.get('/application/generate-summary', {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+        params: { applicants: selectedApplicants.join(',') },
+        responseType: 'blob',
+      });
+  
+      const url = window.URL.createObjectURL(new Blob([response.data]));
+      const link = document.createElement('a');
+      link.href = url;
+      link.setAttribute('download', `summary_${selectedApplicants.length > 1 ? 'multiple' : 'single'}.pdf`);
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    } catch (error: any) {
+      toast.error('Error generating summary: ' + (error.message || 'Unknown error'));
+    }
+  };  
+
   const dropdownActions = [
     { label: 'Print', action: generatePDF },
-    { label: 'Print Summary', href: '#/print-summary' },
+    { label: 'Print Summary', action: generateSummary }, 
     { label: 'Print Sticker', href: '#/print-sticker' },
     { label: 'Export Applicants for Tasheer', href: '#/export-applicants' },
     { label: 'Print Contract', href: '#/print-contract' },
